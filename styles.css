@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(220, 220, 220);
+    margin: 0;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title{
+    font-size: 6vh;
+    font-weight: bold;
+    text-align: center;
+    color:rgb(10, 10, 10)
+}
+
+.formCard{
+    width: 30vw;
+    padding: 20px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.formTitle{
+    font-size: 3vh;
+    font-weight: bold;
+    text-align: center;
+    color:rgb(10, 10, 10)
+}
+
+.cardBody form{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.formInput{
+    font-size: 2vh;
+    width: 20vw;
+    font-weight: bold;
+    text-align: center;
+    color:rgb(10, 10, 10)
+}
+
+.noAccount{
+    font-size: 1.5vh;
+    color:rgb(10, 10, 10);
+    display: flex;
+    flex-direction: row;
+}
+
+.noAccount p{
+    margin: 10px 0;
+    padding: 0;
+}
+
+#linkRegistro{
+    color: rgb(30, 30, 220);
+    text-decoration: none;
+    margin: 10px 5px;
+    padding: 0;
+}
